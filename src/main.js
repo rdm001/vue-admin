@@ -4,7 +4,7 @@ import router from './router.js'
 import store from './store.js'
 import './styles/common.css'
 import elementUi from 'element-ui'
-
+Vue.use(elementUi)
 Vue.config.productionTip = false
 
 new Vue({
